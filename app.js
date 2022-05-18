@@ -1,8 +1,6 @@
 function reverseWords(str) {
-    // Go for it
-    console.log(str.split('').reverse().join(''));
-    str = str.split('').reverse().join('');
-    return str;
+    return str.split("").reverse().join("").split(" ").reverse().join(" ")
+    
 }
 
 console.log(reverseWords('apple')); // 'elppa'
